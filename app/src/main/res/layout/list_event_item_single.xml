@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    card_view:contentPadding="3dp"
+    card_view:cardElevation="1dp"
+    card_view:cardCornerRadius="1dp"
+    android:background="@drawable/margin"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/margin">
+
+        <TextView
+            android:id="@+id/ecarpoolnamedisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:text="Carpool:"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ecarpoolnametext"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/ecarpoolnamedisplay"
+            android:text="Carpool "
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/enamedisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ecarpoolnamedisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Event"
+            android:textColor="#000"
+            android:textDirection="locale"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/eeventtext"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ecarpoolnametext"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/enamedisplay"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/elocationdisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enamedisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Location:"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/elocationtext"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eeventtext"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/elocationdisplay"
+            android:text="location"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/eownerdisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/elocationdisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Owner"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/eownertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/elocationtext"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/eownerdisplay"
+            android:text="Phone number"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/emember1display"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eownerdisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Member1"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/emember1text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eownertext"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/emember1display"
+            android:text="Member1"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/emember2display"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emember1display"
+            android:layout_marginLeft="8dp"
+            android:text="Member2"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/emember2text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emember1text"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/emember2display"
+            android:text="Member2"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/emember3display"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emember2display"
+            android:layout_marginLeft="8dp"
+            android:text="Member3"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/emember3text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emember2text"
+            android:layout_marginLeft="64dp"
+            android:layout_toRightOf="@+id/emember3display"
+            android:text="Member3"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/startevent"
+            android:text="START EVENT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/emember3text"
+            android:layout_marginStart="205dp"
+            android:layout_marginBottom="-45dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

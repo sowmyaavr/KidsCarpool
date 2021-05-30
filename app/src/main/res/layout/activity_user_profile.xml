@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="25dp"
+    android:layout_marginTop="205dp"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    tools:context=".UserProfile">
+
+    <ImageView
+        android:id="@+id/user_image_show"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background="@drawable/s" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/user_name_show_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:layout_marginStart="5dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/heebo"
+            android:textColor="#000"
+            android:padding="7dp"/>
+        <TextView
+        android:id="@+id/user_name_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Name"
+        android:textSize="20sp"
+        android:fontFamily="@font/heebo"
+            android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="7dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/user_email_1text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="EMAIL"
+            android:textSize="20sp"
+            android:fontFamily="@font/heebo"
+            android:textColor="#000"
+
+            android:padding="7dp"/>
+
+
+
+    <TextView
+        android:id="@+id/user_email_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/heebo"
+        android:textSize="20sp"
+        android:hint=" emailid"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="7dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/user_adress1_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDRESS"
+            android:textSize="20sp"
+            android:fontFamily="@font/heebo"
+            android:textColor="#000"
+            android:padding="7dp"/>
+        <TextView
+        android:id="@+id/user_address_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/heebo"
+        android:hint="Address"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="7dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/user_kid1_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KIDNAME"
+            android:textSize="20sp"
+            android:fontFamily="@font/heebo"
+            android:textColor="#000"
+            android:padding="7dp"/>
+
+
+    <TextView
+        android:id="@+id/user_child_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/heebo"
+        android:hint="kid name"
+        android:padding="7dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

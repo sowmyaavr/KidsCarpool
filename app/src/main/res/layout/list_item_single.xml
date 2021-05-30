@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    card_view:contentPadding="8dp"
+    card_view:cardElevation="1dp"
+    card_view:cardCornerRadius="5dp"
+    android:background="@drawable/margin"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/margintext">
+
+        <TextView
+            android:id="@+id/carpoolnamedisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Carpool:"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/carpoolnametext"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/carpoolnamedisplay"
+            android:text="Carpool "
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/namedisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/carpoolnamedisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Event"
+            android:textColor="#000"
+            android:textDirection="locale"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/eventtext"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/carpoolnametext"
+            android:layout_marginLeft="74dp"
+            android:layout_toRightOf="@+id/namedisplay"
+            android:text="name"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/locationdisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/namedisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Location:"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/locationtext"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventtext"
+            android:layout_marginLeft="74dp"
+            android:layout_toRightOf="@+id/locationdisplay"
+            android:text="location"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/ownerdisplay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/locationdisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Owner"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/ownertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/locationtext"
+            android:layout_marginLeft="74dp"
+            android:layout_toRightOf="@+id/ownerdisplay"
+            android:text="Owner"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/member1display"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/ownerdisplay"
+            android:layout_marginLeft="8dp"
+            android:text="Member1"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/member1text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ownertext"
+            android:layout_marginLeft="74dp"
+            android:layout_toRightOf="@+id/member1display"
+            android:text="Member1"
+            android:textColor="#000"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/member2display"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/member1display"
+            android:layout_marginLeft="8dp"
+            android:text="Member2"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/member2text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/member1text"
+            android:layout_marginLeft="74dp"
+            android:layout_toRightOf="@+id/member2display"
+            android:text="Member2"
+            android:textColor="#000"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/member3display"
+            android:layout_width="105dp"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/member2display"
+            android:layout_marginLeft="8dp"
+            android:text="Member3"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/member3text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/member2text"
+            android:layout_marginLeft="74dp"
+            android:layout_toRightOf="@+id/member3display"
+            android:text="Member3"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
